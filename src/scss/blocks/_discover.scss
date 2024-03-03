@@ -1,0 +1,77 @@
+.discover {
+    padding: 60px 0;
+}
+
+.discover__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    align-items: center;
+
+    @media(max-width:1300px) {
+        gap: 40px;
+    }
+
+    @media(max-width:992px) {
+        gap: 10px;
+    }
+
+    @media(max-width:1000px) {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+}
+.discover__desc {
+}
+.discover__title {
+    margin-bottom: 24px;
+
+}
+
+.discover__text {
+    margin-bottom: 40px;
+
+    @media(max-width:767px) {
+        margin-bottom: 0px;
+    }
+}
+.discover__picture {
+    position: relative;
+
+    @media(max-width:1000px) {
+        margin: 0 auto;
+        grid-row: -1 / 1;
+    }
+    @media(max-width:520px) {
+        display: none;
+    }
+
+}
+.discover__picture-img {
+}
+.discover__form {
+}
+
+.discover__picture-hint {
+    position: absolute;
+    top: 90px;
+    left: 40px;
+    z-index: 9;
+
+    @media(max-width:1439px) {
+        top: 40px;
+        left: 40px;
+    }
+    
+}
+
+.discover__picture-scroll {
+    position: absolute;
+    right: 15px;
+    bottom: 20px;
+
+    @media(max-width:1439px) {
+        right: 0px;
+        bottom: 0px;
+    }
+}

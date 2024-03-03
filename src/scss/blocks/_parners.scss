@@ -1,0 +1,35 @@
+
+.partners {
+    padding: clamp(20px, 0.154rem + 5.48vw, 60px) 0;
+   
+}
+.partners__row {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    gap: 30px;
+
+    @media(max-width:1050px) {
+        flex-direction: column;
+    }
+
+    
+}
+.partners__title {
+    color: #9E9E9E;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 140%;
+}
+
+.partners__content {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+
+
+    @media(max-width:1050px) {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
